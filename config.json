@@ -1,0 +1,78 @@
+{
+    "Auth": {
+        "OAUTH": "oauth:",
+        "client_id": "Exp",
+        "d_name": "Exp",
+        "channel": ["Exp"]
+    },
+    "Options": {
+        "Coins_on_follow": 10,
+        "Coins_per_mes": 1
+    },
+    "Commands": {
+        "!tutudu": {
+            "Duration": 10,
+            "cost": 10,
+            "volume": -10,
+            "type": "ws",
+            "file": "tutudu.mp3"
+        },
+        "!alert": {
+            "Duration": 10,
+            "cost": 10,
+            "volume": -10,
+            "type": "ws",
+            "file": "alert.mp3"
+        },
+        "!baka": {
+            "Duration": 10,
+            "cost": 10,
+            "volume": -10,
+            "type": "ws",
+            "file": "baka.mp3"
+        },
+        "+W": {
+            "state": "multiple",
+            "cost": 0,
+            "type": "sk",
+            "value": "w"
+        },
+        "+A": {
+            "state": "multiple",
+            "cost": 0,
+            "type": "sk",
+            "value": "a"
+        },
+        "+D": {
+            "state": "multiple",
+            "cost": 0,
+            "type": "sk",
+            "value": "d"
+        },
+        "+S": {
+            "state": "multiple",
+            "cost": 0,
+            "type": "sk",
+            "value": "s"
+        },
+        "JUMP": {
+            "state": "",
+            "cost": 0,
+            "type": "sk",
+            "value": "SPACE"
+        },
+        "SING": {
+            "state": "multiple",
+            "cost": 0,
+            "type": "sk",
+            "value": "j"
+        },
+        "STONE": {
+            "state": "multiple",
+            "cost": 0,
+            "type": "sk",
+            "value": "k"
+        }
+
+    }
+}
